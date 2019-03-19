@@ -28,7 +28,7 @@ class Navbar extends Component {
 	render() {
 		return (
 			<header className="navbar navbar--clearfix" style={{background: this.state.bgColor}}>
-				<div>
+				<div className="navbar__hamburger">
 					<DrawerToggleButton click={this.props.drawerClickHandler} />
 				</div>
 				<nav className="navbar__nav">

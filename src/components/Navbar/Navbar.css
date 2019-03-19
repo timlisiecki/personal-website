@@ -1,7 +1,8 @@
 .navbar {
 	position: fixed;
-    margin-top: 9rem;
+    /*margin-top: 9rem;*/
     width: 100%;
+    z-index: 500;
 }
 
 .navbar__nav {
@@ -47,6 +48,10 @@
 	.navbar__ul--left,
 	.navbar__ul--right {
 		display: none;
+	}
+
+	.navbar {
+		display: inline-flex;
 	}
 }
 

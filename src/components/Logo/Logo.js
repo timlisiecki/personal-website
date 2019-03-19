@@ -9,7 +9,7 @@ class Logo extends Component {
 	}
 
 	render() {
-		return <h1 className="navbar__logo">TIM LISIECKI</h1>
+		return <h1 className="navbar__logo">Tim Lisiecki</h1>
 	}
 }
 
