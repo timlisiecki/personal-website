@@ -21,3 +21,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.section-wrapper {
+  padding: 4rem 8rem;
+  text-align: left;
+  background: #ffffff;
+}
+
+.section-wrapper--grey {
+  background: #f1f1f1;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-wrapper {
+    padding: 1rem 2rem;
+    text-align: left;
+  }
+}

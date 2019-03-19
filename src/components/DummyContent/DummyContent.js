@@ -4,7 +4,7 @@ class DummyContent extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="section-wrapper section-wrapper--grey">
 				<p>
 					Spicy jalapeno bacon ipsum dolor amet adipisicing ham hock chicken fugiat ball tip reprehenderit. Pastrami cupim velit turkey, in kevin ribeye. Occaecat veniam anim non in pork belly tri-tip ribeye shank drumstick andouille. Leberkas fugiat dolor biltong, filet mignon qui jowl. Filet mignon alcatra biltong beef ribs, bresaola tail cillum enim consequat meatball in. Drumstick consequat ipsum tongue. Eiusmod dolore cow, quis aute ut ipsum bresaola nulla est spare ribs boudin.
 				</p>

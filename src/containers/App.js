@@ -2,15 +2,12 @@
 import React, { Component } from 'react';
 
 // Pages
+import HomePage from '../pages/HomePage';
 
 // Components
 import Navbar from '../components/Navbar/Navbar';
 import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
-import Hero from '../components/Hero/Hero';
-import Content from '../components/Content/Content';
-import About from '../components/About/About';
-import DummyContent from '../components/DummyContent/DummyContent';
 import Footer from '../components/Footer/Footer';
 
 // Styles
@@ -43,11 +40,9 @@ class App extends Component {
                 <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
-                <Hero />
-                <Content>
-                    <About />
-                    <DummyContent />
-                </Content>
+
+                <HomePage />
+                
                 <Footer />
             </div>
         );
