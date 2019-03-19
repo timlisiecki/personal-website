@@ -9,7 +9,9 @@ import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
 import Hero from '../components/Hero/Hero';
 import Content from '../components/Content/Content';
+import About from '../components/About/About';
 import DummyContent from '../components/DummyContent/DummyContent';
+import Footer from '../components/Footer/Footer';
 
 // Styles
 import './App.css';
@@ -43,8 +45,10 @@ class App extends Component {
                 {backdrop}
                 <Hero />
                 <Content>
+                    <About />
                     <DummyContent />
                 </Content>
+                <Footer />
             </div>
         );
     }
