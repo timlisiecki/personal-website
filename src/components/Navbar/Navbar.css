@@ -1,8 +1,7 @@
 .navbar {
 	position: fixed;
-    padding: 0 1.2rem;
     margin-top: 9rem;
-    width: 97%;
+    width: 100%;
 }
 
 .navbar__nav {
@@ -29,7 +28,7 @@
 
 .navbar__list-items {
 	display: inline-flex;
-	padding: 1.2rem;;
+	padding: 1rem 1.5rem;;
 }
 
 .navbar__list-items a {

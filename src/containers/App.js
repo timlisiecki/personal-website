@@ -1,11 +1,17 @@
+// Dependencies
 import React, { Component } from 'react';
 
+// Pages
+
+// Components
 import Navbar from '../components/Navbar/Navbar';
 import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Backdrop from '../components/Backdrop/Backdrop';
 import Hero from '../components/Hero/Hero';
 import Content from '../components/Content/Content';
 import DummyContent from '../components/DummyContent/DummyContent';
+
+// Styles
 import './App.css';
 
 class App extends Component {
