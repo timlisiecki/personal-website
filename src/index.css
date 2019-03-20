@@ -39,6 +39,34 @@ code {
   background: #f1f1f1;
 }
 
+.connect__icon {
+  font-size: 4rem;
+  color: green;
+  padding-left: 40%;
+}
+
+.connect__icon a {
+  color: green;
+}
+
+.connect__icon a:hover {
+  opacity: 0.5;
+}
+
+.footer__icon {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+}
+
+.footer__icon a {
+  color: white;
+}
+
+.footer__icon a:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 860px) {
   .section-wrapper {
     padding: 1rem 2rem;
