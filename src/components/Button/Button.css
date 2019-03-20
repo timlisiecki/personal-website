@@ -1,0 +1,17 @@
+.button {
+	background: transparent;
+	padding: 1.2rem;
+	font-size: 1.2rem;
+	border: 2px solid #418E43;
+	border-radius: 5px;
+	color: #418E43;
+}
+
+.button:hover {
+	background: #418E43;
+	color: #ffffff;
+}
+
+.button:focus {
+	outline: none;
+}

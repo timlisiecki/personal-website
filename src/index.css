@@ -32,9 +32,28 @@ code {
   background: #f1f1f1;
 }
 
+
+/* Responsiveness */
+.row {
+  display: block;
+}
+
+.column__one-half {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
 @media screen and (max-width: 1000px) {
   .section-wrapper {
     padding: 1rem 2rem;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 860px) {  
+  .column__one-half {
+    display: inline-block;
+    width: 100%;
   }
 }

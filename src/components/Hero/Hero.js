@@ -4,6 +4,7 @@ import LazyHero from 'react-lazy-hero';
 
 // Styles
 import './Hero.css';
+import heroImage from '../../images/webdev-bg.jpg';
 
 class Hero extends Component {
 
@@ -12,7 +13,7 @@ class Hero extends Component {
 			<div className="hero-image">
 				<LazyHero
 					color="#418e42" 
-					imageSrc="https://images.unsplash.com/photo-1468070454955-c5b6932bd08d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+					imageSrc={heroImage}
 					minHeight="97vh"
 					opacity={0.5}
 					parallaxOffset={200}
@@ -26,7 +27,3 @@ class Hero extends Component {
 }
 
 export default Hero;
-
-
-// https://images.unsplash.com/photo-1468070454955-c5b6932bd08d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
-// ../../images/webdev-bg.jpg
