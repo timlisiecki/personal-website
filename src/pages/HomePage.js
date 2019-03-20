@@ -108,7 +108,7 @@ class HomePage extends Component {
                         <div>
                             <h5>Need to Contact Me?</h5>
                             <span className="connect__icon">
-                                <a href="mailto:info@timlisiecki.com" target="_blank">
+                                <a href="mailto:info@timlisiecki.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fas fa-envelope-open"></i>
                                 </a>
                             </span>
@@ -116,7 +116,7 @@ class HomePage extends Component {
                         <div>
                             <h5>Want to Collaborate, or See my Work?</h5>
                             <span className="connect__icon">
-                                <a href="https://github.com/timlisiecki" target="_blank">
+                                <a href="https://github.com/timlisiecki" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </span>
@@ -124,7 +124,7 @@ class HomePage extends Component {
                         <div>
                             <h5>Want to Hire Me?</h5>
                             <span className="connect__icon">
-                                <a href="https://www.linkedin.com/in/timothylisiecki/" target="_blank">
+                                <a href="https://www.linkedin.com/in/timothylisiecki/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </span>
