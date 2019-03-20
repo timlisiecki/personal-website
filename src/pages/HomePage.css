@@ -27,6 +27,11 @@
 	max-width: 400px;
 }
 
+.project__featured-image {
+	width: auto;
+	height: 200px;
+}
+
 
 
 @media screen and (max-width: 960px) {
