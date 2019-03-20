@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/timlisiecki/personal-website/precache-manifest.f58f8b1ad21089f0172015d1acd50369.js"
+  "/personal-website/precache-manifest.5b6e93d2624171b2ad71f2d949d78947.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/timlisiecki/personal-website/index.html", {
+workbox.routing.registerNavigationRoute("/personal-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
