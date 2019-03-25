@@ -46,7 +46,7 @@ class HomePage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Featured Projects</h1>
+                        <h1>Skillset</h1>
                         <div className="grid__row">
                             <div className="grid__column--one-third">
                                 <div>
