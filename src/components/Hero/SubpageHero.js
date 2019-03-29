@@ -18,7 +18,7 @@ class SubpageHero extends Component {
 					opacity={0.5}
 					parallaxOffset={200}
 				>
-					<h1 className="subpage-hero__title">Subpage Title</h1>
+					<h1 className="subpage-hero__title">{this.props.title}</h1>
 				</LazyHero>
 			</div>
 		);

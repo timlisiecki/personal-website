@@ -1,8 +1,15 @@
 // Dependencies
 import React, { Component } from 'react';
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 // Pages
 import HomePage from '../pages/HomePage';
+import AboutPage from '../pages/AboutPage';
+import ResumePage from '../pages/ResumePage';
+import PortfolioPage from '../pages/PortfolioPage';
+import FeaturesPage from '../pages/FeaturesPage';
+import ResourcesPage from '../pages/ResourcesPage';
+import ContactPage from '../pages/ContactPage';
 
 // Components
 import Navbar from '../components/Navbar/Navbar';
@@ -36,11 +43,19 @@ class App extends Component {
         }
         return (
             <div className="App" style={{height: "100%"}}>
-                <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+                <Router>
+                    <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+
+                    <Route exact path="/" component={HomePage} />
+                    <Route path="/about" component={AboutPage} />
+                    <Route path="/resume" component={ResumePage} />
+                    <Route path="/portfolio" component={PortfolioPage} />
+                    <Route path="/features" component={FeaturesPage} />
+                    <Route path="/resources" component={ResourcesPage} />
+                    <Route path="/contact" component={ContactPage} />
+                </Router>
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
-
-                <HomePage />
                 
                 <Footer />
             </div>

@@ -8,3 +8,12 @@
 	font-size: 2rem;
 }
 
+.navbar__logo:hover {
+	cursor: pointer;
+}
+
+.navbar__logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+

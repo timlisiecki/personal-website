@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Link, NavLink } from "react-router-dom";
 
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import Logo from '../Logo/Logo';
@@ -28,28 +28,30 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<header className="navbar navbar--clearfix" style={{background: this.state.bgColor}}>
-				<div className="navbar__hamburger">
-					<DrawerToggleButton click={this.props.drawerClickHandler} />
-				</div>
-				<nav className="navbar__nav">
-					<div className="navbar__ul--left">
-						<ul className="navbar__ul">
-							<li className="navbar__list-items"><a href="/">About Me</a></li>
-							<li className="navbar__list-items"><a href="/">Resume</a></li>
-							<li className="navbar__list-items"><a href="/">Portfolio</a></li>
-						</ul>
+			<Router>
+				<header className="navbar navbar--clearfix" style={{background: this.state.bgColor}}>
+					<div className="navbar__hamburger">
+						<DrawerToggleButton click={this.props.drawerClickHandler} />
 					</div>
-					<Logo />
-					<div className="navbar__ul--right">
-						<ul className="navbar__ul">
-							<li className="navbar__list-items"><a href="/">Features</a></li>
-							<li className="navbar__list-items"><a href="/">Resources</a></li>
-							<li className="navbar__list-items"><a href="/">Contact</a></li>
-						</ul>
-					</div>
-				</nav>
-			</header>
+					<nav className="navbar__nav">
+						<div className="navbar__ul--left">
+							<ul className="navbar__ul">
+								<li className="navbar__list-items"><NavLink to="/about">About Me</NavLink></li>
+								<li className="navbar__list-items"><NavLink to="/resume">Resume</NavLink></li>
+								<li className="navbar__list-items"><NavLink to="/portfolio">Portfolio</NavLink></li>
+							</ul>
+						</div>
+						<Logo />
+						<div className="navbar__ul--right">
+							<ul className="navbar__ul">
+								<li className="navbar__list-items"><NavLink to="/features">Features</NavLink></li>
+								<li className="navbar__list-items"><NavLink to="/resources">Resources</NavLink></li>
+								<li className="navbar__list-items"><NavLink to="/contact">Contact</NavLink></li>
+							</ul>
+						</div>
+					</nav>
+				</header>
+			</Router>
 		);
 	}
 }
