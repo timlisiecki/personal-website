@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import Logo from '../Logo/Logo';
@@ -9,7 +10,7 @@ class Navbar extends Component {
 		super();
 		this.state = {
 			bgColor: 'none'
-		}
+		};
 	}
 
 	listenScrollEvent = e => {

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { data } from '../data';
 
 // Components
-import Hero from '../components/Hero/Hero';
+import SubpageHero from '../components/Hero/SubpageHero';
 import Button from '../components/Button/Button';
 
 // Assets
@@ -19,7 +19,7 @@ class HomePage extends Component {
 	render() {
 		return (
 			<div className="home-content">
-				<Hero />
+				<SubpageHero />
 			    <div className="section-wrapper">
     				<div className="site-features__wrapper">
                         <h4 className="site-features__intro">Features of This Website:</h4>

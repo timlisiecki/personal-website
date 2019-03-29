@@ -50,7 +50,7 @@
     .grid__column--five-sixths{ width: 100%; }
     .grid__column--twelve{ width: 100%; }
 
-    .grid__row .grid__column--one-third:last-of-type{
+    .grid__row .grid__column--one-third:first-of-type{
         width: 100%; 
     }
 

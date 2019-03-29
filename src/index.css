@@ -39,10 +39,13 @@ code {
   background: #f1f1f1;
 }
 
+.connect--centered {
+  text-align: center;
+}
+
 .connect__icon {
   font-size: 4rem;
   color: green;
-  padding-left: 40%;
 }
 
 .connect__icon a {
