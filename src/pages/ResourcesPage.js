@@ -12,24 +12,15 @@ import './HomePage.css';
 import bioPic from '../images/timlisiecki.jpg';
 import bccPic from '../images/bcc.png';
 
-class HomePage extends Component {
+class ResourcesPage extends Component {
 
 
 
 	render() {
 		return (
-			<div className="home-content">
+			<div className="page-content">
 				<SubpageHero title="Resources"/>
 			    <div className="section-wrapper">
-    				<div className="site-features__wrapper">
-                        <h4 className="site-features__intro">Features of This Website:</h4>
-    					<div className="site-features">
-    						<p>Mobile Responsive</p>
-                            <p>Progressive Web App</p>
-                            <p>Built with React</p>
-                            <p>BEM Methodology</p>
-    					</div>
-    				</div>
     				<div className="grid__container">
                         <div className="grid__row">
                             <div className="grid__column--one-half">
@@ -137,4 +128,4 @@ class HomePage extends Component {
 	}
 }
 
-export default HomePage;
+export default ResourcesPage;

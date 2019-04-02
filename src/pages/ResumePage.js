@@ -12,24 +12,15 @@ import './HomePage.css';
 import bioPic from '../images/timlisiecki.jpg';
 import bccPic from '../images/bcc.png';
 
-class HomePage extends Component {
+class ResumePage extends Component {
 
 
 
 	render() {
 		return (
-			<div className="home-content">
+			<div className="page-content">
 				<SubpageHero title="Resume"/>
 			    <div className="section-wrapper">
-    				<div className="site-features__wrapper">
-                        <h4 className="site-features__intro">Features of This Website:</h4>
-    					<div className="site-features">
-    						<p>Mobile Responsive</p>
-                            <p>Progressive Web App</p>
-                            <p>Built with React</p>
-                            <p>BEM Methodology</p>
-    					</div>
-    				</div>
     				<div className="grid__container">
                         <div className="grid__row">
                             <div className="grid__column--one-half">
@@ -103,38 +94,9 @@ class HomePage extends Component {
                         <Button>Check Out More</Button>
                     </div>
     			</div>
-    			<div className="section-wrapper section-wrapper--grey">
-    				<h1>Connect</h1>
-    				<div className="connect-features">
-                        <div className="connect--centered">
-                            <h5>Need to Contact Me?</h5>
-                            <span className="connect__icon">
-                                <a href="mailto:info@timlisiecki.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="fas fa-envelope-open"></i>
-                                </a>
-                            </span>
-                        </div>
-                        <div className="connect--centered">
-                            <h5>Want to Collaborate, or See my Work?</h5>
-                            <span className="connect__icon">
-                                <a href="https://github.com/timlisiecki" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-github"></i>
-                                </a>
-                            </span>
-                        </div>
-                        <div className="connect--centered">
-                            <h5>Want to Hire Me?</h5>
-                            <span className="connect__icon">
-                                <a href="https://www.linkedin.com/in/timothylisiecki/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-linkedin-in"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-    			</div>
 			</div>
 		);
 	}
 }
 
-export default HomePage;
+export default ResumePage;

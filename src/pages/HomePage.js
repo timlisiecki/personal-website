@@ -19,7 +19,7 @@ class HomePage extends Component {
 
 	render() {
 		return (
-			<div className="home-content">
+			<div className="page-content">
 				<Hero />
 			    <div className="section-wrapper">
     				<div className="site-features__wrapper">

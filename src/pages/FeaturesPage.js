@@ -12,24 +12,15 @@ import './HomePage.css';
 import bioPic from '../images/timlisiecki.jpg';
 import bccPic from '../images/bcc.png';
 
-class HomePage extends Component {
+class FeaturesPage extends Component {
 
 
 
 	render() {
 		return (
-			<div className="home-content">
+			<div className="page-content">
 				<SubpageHero title="Features"/>
 			    <div className="section-wrapper">
-    				<div className="site-features__wrapper">
-                        <h4 className="site-features__intro">Features of This Website:</h4>
-    					<div className="site-features">
-    						<p>Mobile Responsive</p>
-                            <p>Progressive Web App</p>
-                            <p>Built with React</p>
-                            <p>BEM Methodology</p>
-    					</div>
-    				</div>
     				<div className="grid__container">
                         <div className="grid__row">
                             <div className="grid__column--one-half">
@@ -37,7 +28,6 @@ class HomePage extends Component {
                                 <p>
                                     Hi! Welcome to my personal website! After 10 years of working in the passsenger vessel industry as a Captain, I decided to change careers to become a web developer with a focus on front end development using the latest technologies.  
                                 </p>
-                                <Button>Learn More</Button>
                             </div>
                             <div className="grid__column--one-half">
                                 <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
@@ -137,4 +127,4 @@ class HomePage extends Component {
 	}
 }
 
-export default HomePage;
+export default FeaturesPage;
