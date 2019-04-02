@@ -6,16 +6,14 @@ import { data } from '../data';
 // Components
 import Hero from '../components/Hero/Hero';
 import Button from '../components/Button/Button';
+import CardList from '../components/Card/CardList';
 
 // Assets
 import '../assets/responsive-grid.css';
 import './HomePage.css';
 import bioPic from '../images/timlisiecki.jpg';
-import bccPic from '../images/bcc.png';
 
 class HomePage extends Component {
-
-
 
 	render() {
 		return (
@@ -64,7 +62,7 @@ class HomePage extends Component {
                             <div className="grid__column--one-third">
                                 <div className="skillest--centered">
                                     <span className="connect__icon">
-                                        <i class="fas fa-mobile-alt"></i>
+                                        <i className="fas fa-mobile-alt"></i>
                                     </span>
                                     <h4>Responsive Design</h4>
                                     <p>Optimized websites that look great on both desktop and mobile.</p>
@@ -88,31 +86,8 @@ class HomePage extends Component {
     			<div className="section-wrapper">
 					<div className="grid__container">
                         <h1>Featured Projects</h1>
-                        <div className="grid__row">
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[0].name}</h4>
-                                    <img src={bccPic} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[0].desc}</p>
-                                    <p>{data.projects[0].url}</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[1].name}</h4>
-                                    <img src={data.projects[1].image} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[1].desc}</p>
-                                    <p>{data.projects[1].url}</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[1].name}</h4>
-                                    <img src={bccPic} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[1].desc}</p>
-                                    <p>{data.projects[1].url}</p>
-                                </div>
-                            </div>               
+                        <div className="grid__row">               
+                            <CardList data={data.projects} linkText="View"/>              
                         </div>
                         <Link to="/portfolio">
                             <Button>Check Out More</Button>

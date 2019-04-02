@@ -44,10 +44,6 @@
 	height: auto;
 }
 
-.card {
-	text-align: center;
-}
-
 @media screen and (max-width: 960px) {
 	.site-features__wrapper {
 		margin-top: -4rem;

@@ -70,6 +70,6 @@ code {
 
 @media screen and (max-width: 860px) {
   .section-wrapper {
-    padding: 1rem 2rem;
+    padding: 1rem 0.75rem;
   }
 }

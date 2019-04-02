@@ -9,7 +9,6 @@ import Button from '../components/Button/Button';
 // Assets
 import '../assets/responsive-grid.css';
 import './HomePage.css';
-import bioPic from '../images/timlisiecki.jpg';
 import bccPic from '../images/bcc.png';
 
 class PortfolioPage extends Component {

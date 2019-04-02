@@ -4,15 +4,25 @@ export const data = {
 			name: "Blue Collar Coding",
 			desc: "Founded a freelance website for building WordPress websites for small businesses.",
 			url: "https://bluecollarcoding.com",
-			image: "images/bcc.png",
-			category: "featured"
+			image: "http://timlisiecki.com/img/portfolio/bcc.png",
+			category: "featured",
+			tech: ["HTML", "CSS", "Wordpress"]
 		},
 		{
 			name: "Scratch Ticket App",
 			desc: "Scratch ticket game created using Javascript. ",
 			url: "https://timlisiecki.github.io/web-dev-scratch-tickets/",
 			image: "http://timlisiecki.com/img/portfolio/scratch-tix.png",
-			category: "featured"
+			category: "featured",
+			tech: ["JavaScript" ,"HTML", "CSS"]
+		},
+		{
+			name: "RoboFriends App",
+			desc: "Progressive Web App using React and Redux. ",
+			url: "https://timlisiecki.github.io/robofriends-with-redux/",
+			image: "http://timlisiecki.com/img/portfolio/scratch-tix.png",
+			category: "featured",
+			tech: ["React", "Redux"]
 		}
 	],
 	jobs: [
