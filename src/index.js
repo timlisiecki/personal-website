@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from "react-router-dom";
 import './index.css';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<HashRouter>
-		<App />
+		<ScrollToTop>
+			<App />
+		</ScrollToTop>
 	</HashRouter>
 	, document.getElementById('root'));
 

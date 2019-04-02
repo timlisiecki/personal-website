@@ -1,5 +1,6 @@
 // Dependencies
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { data } from '../data';
 
 // Components
@@ -32,16 +33,18 @@ class HomePage extends Component {
     				</div>
     				<div className="grid__container">
                         <div className="grid__row">
+                            <h1>About Me</h1>
                             <div className="grid__column--one-half">
-                                <h1>About Me</h1>
                                 <p>
                                     Hi! Welcome to my personal website! After 10 years of working in the passsenger vessel industry as a Captain, I decided to change careers to become a web developer with a focus on front end development using the latest technologies.  
                                 </p>
-                                <Button>Learn More</Button>
                             </div>
                             <div className="grid__column--one-half">
                                 <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
                             </div>
+                            <Link to="/about">
+                                <Button>Learn More</Button>
+                            </Link>
                         </div>
                     </div>
     			</div>
@@ -50,25 +53,36 @@ class HomePage extends Component {
                         <h1>Skillset</h1>
                         <div className="grid__row">
                             <div className="grid__column--one-third">
-                                <div>
+                                <div className="skillest--centered">
+                                    <span className="connect__icon">
+                                        <i className="fas fa-desktop"></i>
+                                    </span>
                                     <h4>Web Development</h4>
                                     <p>Focused on Front End development, creating modern websites optimized for UX.</p>
                                 </div>
                             </div>               
                             <div className="grid__column--one-third">
-                                <div>
+                                <div className="skillest--centered">
+                                    <span className="connect__icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </span>
                                     <h4>Responsive Design</h4>
                                     <p>Optimized websites that look great on both desktop and mobile.</p>
                                 </div>
                             </div>               
                             <div className="grid__column--one-third">
-                                <div>
+                                <div className="skillest--centered">
+                                    <span className="connect__icon">
+                                        <i className="fas fa-bullhorn"></i>
+                                    </span>
                                     <h4>Digital Marketing</h4>
                                     <p>Intergrated Marketing utilizing Social Media, SEO, and Content Marketing to draw audience to your Website.</p>
                                 </div>
                             </div>               
                         </div>
-                        <Button>See More</Button>
+                        <Link to="/resume">
+                            <Button>See More</Button>
+                        </Link>
                     </div>
     			</div>
     			<div className="section-wrapper">
@@ -100,7 +114,9 @@ class HomePage extends Component {
                                 </div>
                             </div>               
                         </div>
-                        <Button>Check Out More</Button>
+                        <Link to="/portfolio">
+                            <Button>Check Out More</Button>
+                        </Link>
                     </div>
     			</div>
     			<div className="section-wrapper section-wrapper--grey">

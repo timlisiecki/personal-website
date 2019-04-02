@@ -10,7 +10,6 @@ import Button from '../components/Button/Button';
 import '../assets/responsive-grid.css';
 import './HomePage.css';
 import bioPic from '../images/timlisiecki.jpg';
-import bccPic from '../images/bcc.png';
 
 class HomePage extends Component {
 
