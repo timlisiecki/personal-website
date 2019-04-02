@@ -34,10 +34,10 @@
 }
 
 /*-- some extra column content styling --*/
-[class*='grid__column--'] > p {
+/*[class*='grid__column--'] > p {
     padding: 0;
     margin: 0;
-}
+}*/
 
 /* Responsive Grid */
 @media screen and (max-width:800px){

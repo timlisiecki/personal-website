@@ -22,7 +22,7 @@ export const data = {
 			url: "https://timlisiecki.github.io/robofriends-with-redux/",
 			image: "http://timlisiecki.com/img/portfolio/scratch-tix.png",
 			category: "featured",
-			tech: ["React", "Redux"]
+			tech: ["React", "Redux", "PWA"]
 		}
 	],
 	jobs: [
