@@ -1,16 +1,15 @@
 // Dependencies
 import React, { Component } from 'react';
+import { Timeline }  from 'vertical-timeline-component-for-react';
 import { data } from '../data';
 
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
-import Button from '../components/Button/Button';
+import ResumeList from '../components/Timeline/ResumeList';
 
 // Assets
 import '../assets/responsive-grid.css';
-import './HomePage.css';
-import bioPic from '../images/timlisiecki.jpg';
-import bccPic from '../images/bcc.png';
+import './ResumePage.css';
 
 class ResumePage extends Component {
 
@@ -23,75 +22,19 @@ class ResumePage extends Component {
 			    <div className="section-wrapper">
     				<div className="grid__container">
                         <div className="grid__row">
-                            <div className="grid__column--one-half">
-                                <h1>About Me</h1>
-                                <p>
-                                    Hi! Welcome to my personal website! After 10 years of working in the passsenger vessel industry as a Captain, I decided to change careers to become a web developer with a focus on front end development using the latest technologies.  
-                                </p>
-                                <Button>Learn More</Button>
-                            </div>
-                            <div className="grid__column--one-half">
-                                <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
-                            </div>
+                            <h3>Profile</h3>
+                            <p>
+                                Web developer with over 3 years experience in front end development. Currently working on small development team at a moving software startup. Recently founded Blue Collar Coding, a freelance site focused on WordPress development for small businesses. Formerly a maritime captain with over 10 years experience in a leadership in the passenger vessel industry. Found a passion for coding and decided to shift my career to web development. Constantly looking to improve skillset and learn new things. Seeking a position as a web developer (or similar position), that may also utilize my management and marketing experience.
+                            </p>
                         </div>
                     </div>
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Skillset</h1>
-                        <div className="grid__row">
-                            <div className="grid__column--one-third">
-                                <div>
-                                    <h4>Web Development</h4>
-                                    <p>Focused on Front End development, creating modern websites optimized for UX.</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div>
-                                    <h4>Responsive Design</h4>
-                                    <p>Optimized websites that look great on both desktop and mobile.</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div>
-                                    <h4>Digital Marketing</h4>
-                                    <p>Intergrated Marketing utilizing Social Media, SEO, and Content Marketing to draw audience to your Website.</p>
-                                </div>
-                            </div>               
-                        </div>
-                        <Button>See More</Button>
-                    </div>
-    			</div>
-    			<div className="section-wrapper">
-					<div className="grid__container">
-                        <h1>Featured Projects</h1>
-                        <div className="grid__row">
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[0].name}</h4>
-                                    <img src={bccPic} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[0].desc}</p>
-                                    <p>{data.projects[0].url}</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[1].name}</h4>
-                                    <img src={data.projects[1].image} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[1].desc}</p>
-                                    <p>{data.projects[1].url}</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[1].name}</h4>
-                                    <img src={bccPic} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[1].desc}</p>
-                                    <p>{data.projects[1].url}</p>
-                                </div>
-                            </div>               
-                        </div>
-                        <Button>Check Out More</Button>
+                        <h1>Employment History</h1>
+                        <Timeline lineColor={'#418e42'}>
+                            <ResumeList data={data.jobs} />
+                        </Timeline>
                     </div>
     			</div>
 			</div>

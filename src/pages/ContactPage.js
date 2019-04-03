@@ -1,20 +1,13 @@
 // Dependencies
 import React, { Component } from 'react';
-import { data } from '../data';
 
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
-import Button from '../components/Button/Button';
 
 // Assets
 import '../assets/responsive-grid.css';
-import './HomePage.css';
-import bioPic from '../images/timlisiecki.jpg';
-import bccPic from '../images/bcc.png';
-
+import './ContactPage.css';
 class ContactPage extends Component {
-
-
 
 	render() {
 		return (

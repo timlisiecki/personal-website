@@ -4,7 +4,6 @@ import { data } from '../data';
 
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
-import Button from '../components/Button/Button';
 import CardList from '../components/Card/CardList';
 
 // Assets

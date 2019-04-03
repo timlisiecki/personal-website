@@ -1,16 +1,13 @@
 // Dependencies
 import React, { Component } from 'react';
-import { data } from '../data';
 
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
-import Button from '../components/Button/Button';
 
 // Assets
 import '../assets/responsive-grid.css';
-import './HomePage.css';
-import bioPic from '../images/timlisiecki.jpg';
-import bccPic from '../images/bcc.png';
+import './FeaturesPage.css';
+import techPic from '../images/webdev.png';
 
 class FeaturesPage extends Component {
 
@@ -31,7 +28,7 @@ class FeaturesPage extends Component {
                                 </p>
                             </div>
                             <div className="grid__column--two-thirds">
-                                <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
+                                <img src={techPic} alt="Web Development Languages" className="features__pic" />
                             </div>
                         </div>
                     </div>
@@ -40,24 +37,26 @@ class FeaturesPage extends Component {
     				<div className="grid__container">
                         <h1>Core Features</h1>
                         <div className="grid__row">
-                            <div className="grid__column--one-third">
-                                <div>
-                                    <h3>React</h3>
-                                    <p>Starting with Create React App, </p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div>
-                                    <h3>Built From Scratch</h3>
-                                    <p>From each React Component to all of the CSS including the responsive grid, I built almost everything on this website from scratch. It has become very easy to use templates,libraries, and frameworks (like Bootstrap) that other developers have created, but it also easy to not fully understand how they work. By building the website from scratch, I not only can show that I know how everything works, but I also learned many new things.</p>
-                                </div>
-                            </div>               
-                            <div className="grid__column--one-third">
-                                <div>
-                                    <h3>Progressive Web App</h3>
-                                    <p>This website is a Progressive Web App! You can turn off your wifi and reload the page, and it will still load. Also, you can add this website to your mobile home-screen as an app! Why would I need to do all this for a personal website? I don't. But Progressive Web Apps are starting to become an alternative to mobile apps and it's a great skill to learn now.</p>
-                                </div>
-                            </div>               
+                            <div className="grid__row">
+                                <div className="grid__column--one-third">
+                                    <div>
+                                        <h3>React</h3>
+                                        <p>Starting with Create React App, </p>
+                                    </div>
+                                </div>               
+                                <div className="grid__column--one-third">
+                                    <div>
+                                        <h3>Built From Scratch</h3>
+                                        <p>From each React Component to all of the CSS including the responsive grid, I built almost everything on this website from scratch. It has become very easy to use templates,libraries, and frameworks (like Bootstrap) that other developers have created, but it also easy to not fully understand how they work. By building the website from scratch, I not only can show that I know how everything works, but I also learned many new things.</p>
+                                    </div>
+                                </div>               
+                                <div className="grid__column--one-third">
+                                    <div>
+                                        <h3>Progressive Web App</h3>
+                                        <p>This website is a Progressive Web App! You can turn off your wifi and reload the page, and it will still load. Also, you can add this website to your mobile home-screen as an app! Why would I need to do all this for a personal website? I don't. But Progressive Web Apps are starting to become an alternative to mobile apps and it's a great skill to learn now.</p>
+                                    </div>
+                                </div>               
+                            </div>
                         </div>
                     </div>
     			</div>

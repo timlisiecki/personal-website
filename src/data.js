@@ -77,7 +77,7 @@ export const data = {
 		{
 			company: "Elromco, Inc",
 			title: "Web Developer",
-			dates: "December 2018 - March 2019",
+			dates: "Dec 2018 - Mar 2019",
 			desc: "Web developer for a moving software startup, building custom websites for moving companies as well as integrating the software with clients' websites.",
 			url: "https://elromco.com",
 			image: "images/bcc.png"
@@ -85,7 +85,7 @@ export const data = {
 		{
 			company: "Blue Collar Coding",
 			title: "Web Developer",
-			dates: "September 2018 - present",
+			dates: "Sep 2018 - Present",
 			desc: "Founded a freelance website for building WordPress websites for small businesses.",
 			url: "https://bluecollarcoding.com",
 			image: "images/bcc.png"
@@ -93,7 +93,7 @@ export const data = {
 		{
 			company: "Massachusetts Bay Lines",
 			title: "Web Marketing Manager",
-			dates: "May 2017 - December 2018",
+			dates: "May 2017 - Dec 2018",
 			desc: "Founded a freelance website for building WordPress websites for small businesses.",
 			url: "https://massbaylines.com",
 			image: "images/bcc.png"

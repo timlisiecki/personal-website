@@ -5,13 +5,10 @@ import { data } from '../data';
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
 import HorizontalCardList from '../components/Card/HorizontalCardList';
-import Button from '../components/Button/Button';
 
 // Assets
 import '../assets/responsive-grid.css';
-import './HomePage.css';
-import bioPic from '../images/timlisiecki.jpg';
-import bccPic from '../images/bcc.png';
+import './ResourcesPage.css';
 
 class ResourcesPage extends Component {
 
