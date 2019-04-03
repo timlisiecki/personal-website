@@ -42,7 +42,7 @@ class AboutPage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h3>Before I Got Into Web Development</h3>
+                        <h3 className="about__title">Before I Got Into Web Development</h3>
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p>
@@ -53,7 +53,7 @@ class AboutPage extends Component {
                                 </p>
                             </div>        
                         </div>
-                        <h3>How I Got Into Web Development</h3>
+                        <h3 className="about__title">How I Got Into Web Development</h3>
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p>
@@ -64,7 +64,7 @@ class AboutPage extends Component {
                                 </p>
                             </div>        
                         </div>
-                        <h3>Starting My Own (part-time) Business</h3>
+                        <h3 className="about__title">Starting My Own (part-time) Business</h3>
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p>
@@ -72,7 +72,7 @@ class AboutPage extends Component {
                                 </p>
                             </div>        
                         </div>
-                        <h3>Changing Careers</h3>
+                        <h3 className="about__title">Changing Careers</h3>
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p>
@@ -80,7 +80,7 @@ class AboutPage extends Component {
                                 </p>
                             </div>        
                         </div>
-                        <h3>Career Goals</h3>
+                        <h3 className="about__title">Career Goals</h3>
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p>

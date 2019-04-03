@@ -17,14 +17,14 @@
 	font-size: 1rem;
 }
 
-.card__categories {
+.card__tech {
 	display: flex;
 	font-size: .75rem;
 	list-style-type: none;
 	color: grey;
 }
 
-.card__categories-list-item {
+.card__tech-list-item {
 	margin: 0 0.25rem;
 	border: 1px solid grey;
 	border-radius: 20px;

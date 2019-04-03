@@ -6,13 +6,12 @@ import Card from './Card';
 
 // Styles
 
-
-const CardList = ( { data } ) => {
+const FeaturedCardList = ( { data } ) => {
 	return (
 		<div>
 			{
 				data.map((project, i) => {
-					if (!data[i].featured) {
+					if (data[i].featured) {
 						return (
 							<Card 
 								key={i}
@@ -35,4 +34,4 @@ const CardList = ( { data } ) => {
 	);
 };
 
-export default CardList;
+export default FeaturedCardList;
