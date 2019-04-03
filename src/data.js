@@ -89,6 +89,14 @@ export const data = {
 			desc: "Founded a freelance website for building WordPress websites for small businesses.",
 			url: "https://bluecollarcoding.com",
 			image: "images/bcc.png"
+		},
+		{
+			company: "Massachusetts Bay Lines",
+			title: "Web Marketing Manager",
+			dates: "May 2017 - December 2018",
+			desc: "Founded a freelance website for building WordPress websites for small businesses.",
+			url: "https://massbaylines.com",
+			image: "images/bcc.png"
 		}
 	],
 	education: [
@@ -101,29 +109,37 @@ export const data = {
 		}
 	],
 	resources: [
-		[
-			{
-				books: [
-					{
-						title: "JavaScript - The Good Parts",
-						author: "Douglas Crockford",
-						url: "https://bluecollarcoding.com",
-						image: "images/bcc.png",
-						featured: true
-					}
-				]
-			},
-			{
-				onlineCourses: [
-					{
-						title: "The Complete Junior to Senior Web Developer Roadmap (2019)",
-						instructor: "Andrei Neagoie",
-						url: "https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/",
-						image: "images/bcc.png",
-						featured: true
-					}
-				]
-			}
-		]
+		{
+			title: "The Complete Junior to Senior Web Developer Roadmap (2019)",
+			author: "Andrei Neagoie",
+			url: "https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/",
+			image: "https://i.udemycdn.com/course/240x135/1650610_2673_5.jpg",
+			type: "Course",
+			featured: true
+		},
+		{
+			title: "The Complete Junior to Senior Web Developer Roadmap (2019)",
+			author: "Andrei Neagoie",
+			url: "https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/",
+			image: "http://timlisiecki.com/img/portfolio/scratch-tix.png",
+			type: "Course",
+			featured: false
+		},
+		{
+			title: "JavaScript - The Good Parts",
+			author: "Douglas Crockford",
+			url: "http://shop.oreilly.com/product/9780596517748.do",
+			image: "https://covers.oreillystatic.com/images/9780596517748/lrg.jpg",
+			type: "Book",
+			featured: true
+		},
+		{
+			title: "Programming JavaScipt Applications",
+			author: "Eric Elliott",
+			url: "https://www.oreilly.com/library/view/programming-javascript-applications/9781491950289/",
+			image: "https://www.oreilly.com/library/cover/9781491950289/360h/",
+			type: "Book",
+			featured: true
+		}
 	]
 };

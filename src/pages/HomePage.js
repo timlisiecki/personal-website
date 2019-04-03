@@ -6,7 +6,7 @@ import { data } from '../data';
 // Components
 import Hero from '../components/Hero/Hero';
 import Button from '../components/Button/Button';
-import FeaturedCardList from '../components/Card/FeaturedCardList';
+import CardList from '../components/Card/CardList';
 
 // Assets
 import '../assets/responsive-grid.css';
@@ -87,7 +87,7 @@ class HomePage extends Component {
 					<div className="grid__container">
                         <h1>Featured Projects</h1>
                         <div className="grid__row">               
-                            <FeaturedCardList data={data.projects} linkText="View"/>              
+                            <CardList data={data.projects} linkText="View" featured={true} />              
                         </div>
                         <Link to="/portfolio">
                             <Button>Check Out More</Button>

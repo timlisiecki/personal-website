@@ -1,0 +1,29 @@
+.horizontal-card {
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	padding: 1rem 0;
+	box-shadow: 0px 0px 19px 0px #cacaca;
+	margin-bottom: 1rem;
+}
+
+.horizontal-card__title {
+	margin: 0;
+	padding: 0.25rem 0;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.horizontal-card__subtitle {
+	margin: 0;
+	padding: 0.25rem 0;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.horizontal-card__category {
+	margin: 0;
+	padding: 0.25rem 0;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+

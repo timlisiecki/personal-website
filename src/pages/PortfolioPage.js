@@ -5,7 +5,6 @@ import { data } from '../data';
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
 import Button from '../components/Button/Button';
-import FeaturedCardList from '../components/Card/FeaturedCardList';
 import CardList from '../components/Card/CardList';
 
 // Assets
@@ -22,7 +21,7 @@ class PortfolioPage extends Component {
 					<div className="grid__container">
                         <h1>Featured Projects</h1>
                         <div className="grid__row">               
-                            <FeaturedCardList data={data.projects} linkText="View"/>              
+                            <CardList data={data.projects} linkText="View" featured={true} />              
                         </div>
                     </div>
     			</div>
