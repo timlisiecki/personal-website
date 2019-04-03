@@ -23,13 +23,13 @@ class FeaturesPage extends Component {
 			    <div className="section-wrapper">
     				<div className="grid__container">
                         <div className="grid__row">
-                            <div className="grid__column--one-half">
-                                <h1>About Me</h1>
+                            <div className="grid__column--one-third">
+                                <h1>Overview</h1>
                                 <p>
-                                    Hi! Welcome to my personal website! After 10 years of working in the passsenger vessel industry as a Captain, I decided to change careers to become a web developer with a focus on front end development using the latest technologies.  
+                                    This page explains all the features of this website, from how it was built to the technologies used, all in order to showcase all of the skills I have learned.
                                 </p>
                             </div>
-                            <div className="grid__column--one-half">
+                            <div className="grid__column--two-thirds">
                                 <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
                             </div>
                         </div>
@@ -37,91 +37,94 @@ class FeaturesPage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Skillset</h1>
+                        <h1>Core Features</h1>
                         <div className="grid__row">
                             <div className="grid__column--one-third">
                                 <div>
-                                    <h4>Web Development</h4>
-                                    <p>Focused on Front End development, creating modern websites optimized for UX.</p>
+                                    <h3>React</h3>
+                                    <p>Starting with Create React App, </p>
                                 </div>
                             </div>               
                             <div className="grid__column--one-third">
                                 <div>
-                                    <h4>Responsive Design</h4>
-                                    <p>Optimized websites that look great on both desktop and mobile.</p>
+                                    <h3>Built From Scratch</h3>
+                                    <p>From each React Component to all of the CSS including the responsive grid, I built almost everything on this website from scratch. It has become very easy to use templates,libraries, and frameworks (like Bootstrap) that other developers have created, but it also easy to not fully understand how they work. By building the website from scratch, I not only can show that I know how everything works, but I also learned many new things.</p>
                                 </div>
                             </div>               
                             <div className="grid__column--one-third">
                                 <div>
-                                    <h4>Digital Marketing</h4>
-                                    <p>Intergrated Marketing utilizing Social Media, SEO, and Content Marketing to draw audience to your Website.</p>
+                                    <h3>Progressive Web App</h3>
+                                    <p>This website is a Progressive Web App! You can turn off your wifi and reload the page, and it will still load. Also, you can add this website to your mobile home-screen as an app! Why would I need to do all this for a personal website? I don't. But Progressive Web Apps are starting to become an alternative to mobile apps and it's a great skill to learn now.</p>
                                 </div>
                             </div>               
                         </div>
-                        <Button>See More</Button>
                     </div>
     			</div>
     			<div className="section-wrapper">
 					<div className="grid__container">
-                        <h1>Featured Projects</h1>
+                        <h1>Styling</h1>
                         <div className="grid__row">
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[0].name}</h4>
-                                    <img src={bccPic} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[0].desc}</p>
-                                    <p>{data.projects[0].url}</p>
+                            <div className="grid__column--one-fourth">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>All CSS is <strong>built from scratch</strong>!</p>
                                 </div>
                             </div>               
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[1].name}</h4>
-                                    <img src={data.projects[1].image} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[1].desc}</p>
-                                    <p>{data.projects[1].url}</p>
+                            <div className="grid__column--one-fourth">
+                                <div>
+                                    <h3>BEM Methodology</h3>
+                                    <p>Used the Block Element Modifier (BEM) methodology to code all the CSS, keeping consistent with the "resusable component" mindset of React.</p>
                                 </div>
                             </div>               
-                            <div className="grid__column--one-third">
-                                <div className="card">
-                                    <h4>{data.projects[1].name}</h4>
-                                    <img src={bccPic} alt="card" className="project__featured-image" />
-                                    <p>{data.projects[1].desc}</p>
-                                    <p>{data.projects[1].url}</p>
+                            <div className="grid__column--one-fourth">
+                                <div>
+                                    <h3>Responsiveness</h3>
+                                    <p>Coded a responsive grid system <strong>from scratch</strong>! Check out the responsive-grid.css file in the Github repository.</p>
                                 </div>
-                            </div>               
+                            </div> 
+                            <div className="grid__column--one-fourth">
+                                <div>
+                                    <h3>Flexbox</h3>
+                                    <p>Using flex box as much as possible for positioning of elements.</p>
+                                </div>
+                            </div>              
                         </div>
-                        <Button>Check Out More</Button>
                     </div>
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
-    				<h1>Connect</h1>
-    				<div className="connect-features">
-                        <div className="connect--centered">
-                            <h5>Need to Contact Me?</h5>
-                            <span className="connect__icon">
-                                <a href="mailto:info@timlisiecki.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="fas fa-envelope-open"></i>
-                                </a>
-                            </span>
-                        </div>
-                        <div className="connect--centered">
-                            <h5>Want to Collaborate, or See my Work?</h5>
-                            <span className="connect__icon">
-                                <a href="https://github.com/timlisiecki" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-github"></i>
-                                </a>
-                            </span>
-                        </div>
-                        <div className="connect--centered">
-                            <h5>Want to Hire Me?</h5>
-                            <span className="connect__icon">
-                                <a href="https://www.linkedin.com/in/timothylisiecki/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-linkedin-in"></i>
-                                </a>
-                            </span>
-                        </div>
+    				<h1>Tools</h1>
+    				<div className="grid__row">
+                        <div className="grid__column--one-fourth">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Git was used for version control, using branches to create new feeatures and then merging with the master branch.</p>
+                            </div>
+                        </div>               
+                        <div className="grid__column--one-fourth">
+                            <div>
+                                <h3>Webpack</h3>
+                                <p><em>Coming Soon</em></p>
+                            </div>
+                        </div>              
                     </div>
     			</div>
+                <div className="section-wrapper">
+                    <h1>Features in the Works</h1>
+                    <div className="grid__row">
+                        <div className="grid__column--one-fourth">
+                            <div>
+                                <h3>SASS</h3>
+                                <p><em>Coming Soon</em></p>
+                            </div>
+                        </div>               
+                        <div className="grid__column--one-fourth">
+                            <div>
+                                <h3>Redux</h3>
+                                <p><em>Coming Soon</em></p>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
 			</div>
 		);
 	}
