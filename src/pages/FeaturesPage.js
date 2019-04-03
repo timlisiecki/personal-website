@@ -14,8 +14,6 @@ import bccPic from '../images/bcc.png';
 
 class FeaturesPage extends Component {
 
-
-
 	render() {
 		return (
 			<div className="page-content">
@@ -27,6 +25,9 @@ class FeaturesPage extends Component {
                                 <h1>Overview</h1>
                                 <p>
                                     This page explains all the features of this website, from how it was built to the technologies used, all in order to showcase all of the skills I have learned.
+                                </p>
+                                <p>
+                                    Interested to see how my website performs? Test this website in Lighthouse for yourself: See Report 
                                 </p>
                             </div>
                             <div className="grid__column--two-thirds">
