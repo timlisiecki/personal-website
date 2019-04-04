@@ -87,7 +87,7 @@ class HomePage extends Component {
 					<div className="grid__container">
                         <h1>Featured Projects</h1>
                         <div className="grid__row">               
-                            <CardList data={data.projects} linkText="View" featured={true} />              
+                            <CardList data={data.projects} linkText="View" isFeatured={true} />              
                         </div>
                         <Link to="/portfolio">
                             <Button>Check Out More</Button>
