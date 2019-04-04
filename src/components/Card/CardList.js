@@ -7,8 +7,8 @@ import Card from './Card';
 // Styles
 
 
-const CardList = ( { featured, data } ) => {
-	if (featured) {
+const CardList = ( { isFeatured, data } ) => {
+	if (isFeatured) {
 		return (
 			<div>
 				{
@@ -34,7 +34,7 @@ const CardList = ( { featured, data } ) => {
 				}
 			</div>
 		);
-	} else if (!featured) {
+	} else if (!isFeatured) {
 		return (
 			<div>
 				{

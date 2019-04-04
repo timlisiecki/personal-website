@@ -6,8 +6,8 @@ import HorizontalCard from './HorizontalCard';
 
 // Styles
 
-const HorizontalCardList = ( { category, featured, data } ) => {
-	if (featured) {
+const HorizontalCardList = ( { category, isFeatured, data } ) => {
+	if (isFeatured) {
 		return (
 			<div>
 				{
