@@ -6,11 +6,14 @@ import { TimelineItem }  from 'vertical-timeline-component-for-react';
 
 // Styles
 
-const ResumeItem = ({ title, company, desc, dates }) => {
+const ResumeItem = ({ title, company, desc, dates, industry }) => {
 	return (
 		<TimelineItem
             dateText={dates}
-            dateInnerStyle={{ background: '#418e42', color: '#ffffff' }}
+            dateInnerStyle={
+              industry === 'maritime' ? { background: '#1335a2', color: '#ffffff' } 
+              : { background: '#418e42', color: '#ffffff' }
+            }
             bodyContainerStyle={{
               background: '#ddd',
               padding: '1rem',

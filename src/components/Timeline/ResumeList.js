@@ -17,6 +17,7 @@ const ResumeList = ( { data } ) => {
 	    						company={data[i].company}
 	    						desc={data[i].desc}
 	    						dates={data[i].dates}
+	    						industry={data[i].industry}
 	    					/>
 		    			);
 		    		})

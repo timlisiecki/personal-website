@@ -78,7 +78,7 @@ export const data = {
 			url: "https://timlisiecki.github.io/budget-app/",
 			github: "https://github.com/timlisiecki/budget-app",
 			image: "http://timlisiecki.com/img/portfolio/budget.png",
-			featured: true,
+			featured: false,
 			tech: ["JavaScript", "HTML", "CSS"]
 		},
 		{
@@ -93,20 +93,22 @@ export const data = {
 	],
 	jobs: [
 		{
-			company: "Elromco, Inc",
-			title: "Web Developer",
-			dates: "Dec 2018 - Mar 2019",
-			desc: "Web developer for a moving software startup, building custom websites for moving companies as well as integrating the software with clients' websites.",
-			url: "https://elromco.com",
-			image: "images/bcc.png"
-		},
-		{
 			company: "Blue Collar Coding",
 			title: "Web Developer",
 			dates: "Sep 2018 - Present",
 			desc: "Founded a freelance website for building WordPress websites for small businesses.",
 			url: "https://bluecollarcoding.com",
-			image: "images/bcc.png"
+			image: "images/bcc.png",
+			industry: "technology"
+		},
+		{
+			company: "Elromco, Inc",
+			title: "Web Developer",
+			dates: "Dec 2018 - Mar 2019",
+			desc: "Web developer for a moving software startup, building custom websites for moving companies as well as integrating the software with clients' websites.",
+			url: "https://elromco.com",
+			image: "images/bcc.png",
+			industry: "technology"
 		},
 		{
 			company: "Massachusetts Bay Lines",
@@ -114,7 +116,17 @@ export const data = {
 			dates: "May 2017 - Dec 2018",
 			desc: "Founded a freelance website for building WordPress websites for small businesses.",
 			url: "https://massbaylines.com",
-			image: "images/bcc.png"
+			image: "images/bcc.png",
+			industry: "technology"
+		},
+		{
+			company: "Massachusetts Bay Lines",
+			title: "Captain",
+			dates: "Apr 2009 - Present",
+			desc: "[part-time/seasonal] Captain of a fleet of 5 vessels on Bosotn Harbor",
+			url: "https://massbaylines.com",
+			image: "images/bcc.png",
+			industry: "maritime"
 		}
 	],
 	education: [

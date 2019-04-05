@@ -30,13 +30,14 @@
 
 .side-drawer a {
 	text-decoration: none;
-	color: #000000;
+	color: #478248;
+	font-weight: 700;
 	font-size: 1.2rem;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active {
-	color: #7c7c7c;
+	opacity: 0.8;
 }
 
 @media screen and (min-width: 961px) {

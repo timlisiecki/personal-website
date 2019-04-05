@@ -19,5 +19,9 @@
 .toggle-button__line {
 	width: 30px;
 	height: 3px;
-	background: white;
+	background: #c3c3c3;
+}
+
+.toggle-button.open {
+	color: black;
 }
