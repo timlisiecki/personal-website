@@ -42,13 +42,13 @@ class ResourcesPage extends Component {
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
                         <h1>Books</h1>
-                        <HorizontalCardList data={data.resources} category={"book"} isFeatured={false} />
+                        <HorizontalCardList data={data.resources} category={"books"} isFeatured={false} />
                     </div>
     			</div>
     			<div className="section-wrapper">
 					<div className="grid__container">
                         <h1>Online Courses</h1>
-                        <HorizontalCardList data={data.resources} category={"course"} isFeatured={false} />
+                        <HorizontalCardList data={data.resources} category={"courses"} isFeatured={false} />
                     </div>
     			</div>
 			</div>

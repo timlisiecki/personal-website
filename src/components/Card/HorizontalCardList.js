@@ -7,78 +7,62 @@ import HorizontalCard from './HorizontalCard';
 // Styles
 
 const HorizontalCardList = ( { category, isFeatured, data } ) => {
-	if (isFeatured) {
-		return (
-			<div>
-				{
-					data.map((resource, i) => {
-						if (data[i].featured) {
-							return (
-								<HorizontalCard 
-									key={i}
-									title={data[i].title}
-									author={data[i].author}
-									image={data[i].image}
-									url={data[i].url}
-									type={data[i].type}
-									linkText="More Info"
-								/>
-							);
-						}	
-					})
-				}
-			</div>
-		);
-	} 
-
-	if (category === "book") {
-		return (
-			<div>
-				{
-					data.map((resource, i) => {
-						if (data[i].type === "Book") {
-							return (
-								<HorizontalCard 
-									key={i}
-									title={data[i].title}
-									author={data[i].author}
-									image={data[i].image}
-									url={data[i].url}
-									type={data[i].type}
-									linkText="More Info"
-								/>
-							);
-						}	
-					})
-				}
-			</div>
-		);
-	} else if (category === "course") {
-		return (
-			<div>
-				{
-					data.map((resource, i) => {
-						if (data[i].type === "Course") {
-							return (
-								<HorizontalCard 
-									key={i}
-									title={data[i].title}
-									author={data[i].author}
-									image={data[i].image}
-									url={data[i].url}
-									type={data[i].type}
-									linkText="More Info"
-								/>
-							);
-						}	
-					})
-				}
-			</div>
-		);
-	} else {
-		return <p>Something isn't right...</p>
-	}
 	
-};
+	const featuredCards = data.filter( card => card.featured ).map((card, i) => {
+			return (
+				<HorizontalCard 
+					key={i}
+					title={card.title}
+					author={card.author}
+					image={card.image}
+					url={card.url}
+					type={card.type}
+					linkText="More Info"
+				/>
+			);
+		});
+
+	const booksList = data.filter( card => card.type === "Book" ).map((card, i) => {
+			return (
+				<HorizontalCard 
+					key={i}
+					title={card.title}
+					author={card.author}
+					image={card.image}
+					url={card.url}
+					type={card.type}
+					linkText="More Info"
+				/>
+			);
+		});
+
+	const courseList = data.filter( card => card.type === "Course" ).map((card, i) => {
+			return (
+				<HorizontalCard 
+					key={i}
+					title={card.title}
+					author={card.author}
+					image={card.image}
+					url={card.url}
+					type={card.type}
+					linkText="More Info"
+				/>
+			);
+		});
+
+	let listType;
+	if (isFeatured) {
+		listType = featuredCards;
+	} else if (category === "books") {
+		listType = booksList;
+	} else if (category === "courses") {
+		listType = courseList;
+	} else {
+		return <p>Something went wrong...</p>
+	}
+
+	return <div>{listType}</div>;
+	
+}
 
 export default HorizontalCardList;

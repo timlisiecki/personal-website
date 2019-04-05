@@ -26,8 +26,8 @@ class PortfolioPage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<h1>Projects</h1>
-    				<div className="grid__row">               
-                        <CardList data={data.projects} linkText="View" isFeatured={false}/>              
+    				<div className="grid__row">
+                        <CardList data={data.projects} linkText="View" isFeatured={false} />
                     </div>
     			</div>
 			</div>
