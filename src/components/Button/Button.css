@@ -1,17 +1,29 @@
 .button {
 	background: transparent;
-	padding: 1.2rem;
-	font-size: 1.2rem;
-	border: 2px solid #418E43;
+	font-size: 1rem;
+	border: 2px solid #000000;
 	border-radius: 5px;
-	color: #418E43;
 }
 
 .button:hover {
-	background: #418E43;
+	background: #000000;
 	color: #ffffff;
 }
 
 .button:focus {
 	outline: none;
+}
+
+.button--large {
+	padding: 1.2rem;
+}
+
+.button--green {
+	border: 2px solid #418E43;
+	color: #418E43;
+}
+
+.button--green:hover {
+	background: #418E43;
+	color: #ffffff;
 }

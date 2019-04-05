@@ -41,7 +41,7 @@ class HomePage extends Component {
                                 <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
                             </div>
                             <Link to="/about">
-                                <Button>Learn More</Button>
+                                <Button classModifier={"button--green button--large"}>Learn More</Button>
                             </Link>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ class HomePage extends Component {
                             </div>               
                         </div>
                         <Link to="/resume">
-                            <Button>See More</Button>
+                            <Button classModifier={"button--green button--large"}>See More</Button>
                         </Link>
                     </div>
     			</div>
@@ -90,7 +90,7 @@ class HomePage extends Component {
                             <CardList data={data.projects} linkText="View" isFeatured={true} />              
                         </div>
                         <Link to="/portfolio">
-                            <Button>Check Out More</Button>
+                            <Button classModifier={"button--green button--large"}>Check Out More</Button>
                         </Link>
                     </div>
     			</div>
