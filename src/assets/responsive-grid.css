@@ -4,6 +4,10 @@
     max-width: 1200px;    
 }
 
+.grid__row {
+    width: 100%;
+}
+
 /*-- our cleafix hack -- */ 
 .grid__row:before, 
 .grid__row:after {
