@@ -2,12 +2,11 @@
 import React from 'react';
 
 // Components
-import Button from '../Button/Button';
 
 // Styles
 import './Card.css';
 
-const Card = ({ name, image, desc, url, tech, linkText }) => {
+const Card = ({ name, image, desc, url, github, tech, linkText }) => {
 	return (
 		<div className="grid__column--one-third">
 			<div className="card">
@@ -17,9 +16,20 @@ const Card = ({ name, image, desc, url, tech, linkText }) => {
 				<ul className="card__content card__tech">
 					{tech}
 				</ul>
-				<a href={url} target="_blank" rel="noopener noreferrer">
-					<Button>{linkText}</Button>
-				</a>
+				<span className="card__icon">
+		            <a href={url} target="_blank" rel="noopener noreferrer">
+		                <i className="fas fa-external-link-alt"></i>
+		            </a>
+		        </span>
+		        {
+		        	github ? (
+				    		<span className="card__icon">
+					            <a href={github} target="_blank" rel="noopener noreferrer">
+					                <i className="fab fa-github"></i>
+					            </a>
+					        </span>
+				    ) : null
+		        }
 			</div>
 		</div>
 	);

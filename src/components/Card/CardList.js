@@ -21,6 +21,7 @@ const CardList = ( { isFeatured, data } ) => {
 						);
 					})}
 					url={card.url}
+					github={card.github}
 					linkText="View"
 				/>
 			);
@@ -39,6 +40,7 @@ const CardList = ( { isFeatured, data } ) => {
 						);
 					})}
 					url={card.url}
+					github={card.github}
 					linkText="View"
 				/>
 			);

@@ -27,3 +27,7 @@
 	background: #418E43;
 	color: #ffffff;
 }
+
+.button--mt-medium {
+	margin-top: 2rem;
+}
