@@ -11,7 +11,7 @@ const ResumeItem = ({ title, company, desc, dates, industry }) => {
 		<TimelineItem
             dateText={dates}
             dateInnerStyle={
-              industry === 'maritime' ? { background: '#1335a2', color: '#ffffff' } 
+              industry === 'maritime' ? { background: '#3e98c7', color: '#ffffff' } 
               : { background: '#418e42', color: '#ffffff' }
             }
             bodyContainerStyle={{
