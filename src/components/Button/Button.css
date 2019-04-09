@@ -18,6 +18,10 @@
 	padding: 1.2rem;
 }
 
+.button--small {
+	padding: .35rem;
+}
+
 .button--green {
 	border: 2px solid #418E43;
 	color: #418E43;

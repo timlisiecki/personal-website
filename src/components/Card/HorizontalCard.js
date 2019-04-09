@@ -19,7 +19,7 @@ const HorizontalCard = ({ title, image, author, url, type, linkText }) => {
                 <p className="horizontal-card__title">{title} <span className="horizontal-card__subtitle">by {author}</span></p>
                 <p className="horizontal-card__category">Category: <em>{type}</em></p>
                 <a href={url} target="_blank" rel="noopener noreferrer">
-					<Button classModifier={"button--green button--mt-medium"}>{linkText}</Button>
+					<Button classModifier={"button--green button--small button--mt-medium"}>{linkText}</Button>
 				</a>
             </div>
         </div>
