@@ -1,7 +1,7 @@
 // Dependencies
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { data } from '../data';
+import { data } from '../api/data';
 
 // Components
 import Hero from '../components/Hero/Hero';

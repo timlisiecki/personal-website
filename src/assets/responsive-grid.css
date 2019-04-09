@@ -64,7 +64,7 @@
 }
 
 @media screen and (max-width:650px){
-    .grid__column--one-sixth{ width: 50%;  }
+    .grid__column--one-sixth{ width: 100%;  }
     .grid__column--one-fourth{ width: 100%; }
     .grid__column--one-third{ width: 100%; }
     .grid__column--one-half{ width: 100%; }

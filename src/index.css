@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Montserrat|Roboto');
 
+/* Reset for spacing */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   height: 100%;
   box-sizing: border-box; 

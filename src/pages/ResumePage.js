@@ -1,11 +1,12 @@
 // Dependencies
 import React, { Component } from 'react';
 import { Timeline }  from 'vertical-timeline-component-for-react';
-import { data } from '../data';
+import { data } from '../api/data';
 
 // Components
 import SubpageHero from '../components/Hero/SubpageHero';
 import ResumeList from '../components/Timeline/ResumeList';
+import SkillList from '../components/Skills/SkillList';
 
 // Assets
 import '../assets/responsive-grid.css';
@@ -37,6 +38,36 @@ class ResumePage extends Component {
                         </Timeline>
                     </div>
     			</div>
+                <div className="section-wrapper">
+                    <div className="grid__container">
+                        <h1>Skills</h1>
+                        <p>Levels: Beginner Intermediate Advanced Expert Guru</p>
+                        <div className="grid__row">
+                            <h3>Top Skills</h3>
+                            <div className="grid__row">
+                                <SkillList data={data.skills} isFeatured={true} gridModifier={"--one-third"}/>
+                            </div>
+                        </div>
+                        <div className="grid__row">
+                            <h3>Languages, Libraries, and Frameworks</h3>
+                            <div className="grid__row">
+                                <SkillList data={data.skills} isFeatured={false} list={"languages"}/>
+                            </div>
+                        </div>
+                        <div className="grid__row">
+                            <h3>Tools and Technology</h3>
+                            <div className="grid__row">
+                                <SkillList data={data.skills} isFeatured={false} list={"tools"}/>
+                            </div>
+                        </div>
+                        <div className="grid__row">
+                            <h3>Industry Knowledge</h3>
+                            <div className="grid__row">
+                                <SkillList data={data.skills} isFeatured={false} list={"industry"}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		);
 	}
