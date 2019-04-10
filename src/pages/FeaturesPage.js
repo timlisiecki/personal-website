@@ -82,7 +82,7 @@ class FeaturesPage extends Component {
                             </div>               
                             <div className="grid__column--twelve">
                                 <h3 className="section__subtitle">Webpack</h3>
-                                <p className="section__content"><em>Coming Soon</em></p>
+                                <p className="section__content">Webpack comes standard with Create Reeact App!</p>
                             </div>              
                         </div>
                     </div>
