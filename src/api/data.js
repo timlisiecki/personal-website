@@ -304,14 +304,6 @@ export const data = {
 			featured: true
 		},
 		{
-			title: "Automate Web Development with Gulp JS",
-			author: "Andrew Mead",
-			url: "https://www.udemy.com/learn-gulp/",
-			image: "https://i.udemycdn.com/course/240x135/284076_749f_7.jpg",
-			type: "Course",
-			featured: false
-		},
-		{
 			title: "The Complete React Web App Developer Course",
 			author: "Andrew Mead",
 			url: "https://www.udemy.com/the-complete-react-web-app-developer-course/",
@@ -324,6 +316,14 @@ export const data = {
 			author: "Brad Schiff",
 			url: "https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/",
 			image: "https://i.udemycdn.com/course/240x135/818990_57c0_3.jpg",
+			type: "Course",
+			featured: false
+		},
+		{
+			title: "Automate Web Development with Gulp JS",
+			author: "Andrew Mead",
+			url: "https://www.udemy.com/learn-gulp/",
+			image: "https://i.udemycdn.com/course/240x135/284076_749f_7.jpg",
 			type: "Course",
 			featured: false
 		},
