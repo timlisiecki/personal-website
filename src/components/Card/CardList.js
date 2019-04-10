@@ -46,7 +46,7 @@ const CardList = ( { isFeatured, data } ) => {
 			);
 		});
 
-	return <div>{ isFeatured ? featuredCards : cards }</div>;
+	return <div className="card-list">{ isFeatured ? featuredCards : cards }</div>;
 }
 
 export default CardList;
