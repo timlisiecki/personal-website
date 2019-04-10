@@ -35,6 +35,10 @@ class App extends Component {
         this.setState({sideDrawerOpen: false});
     }
 
+    linkClickHandler = () => {
+        this.setState({sideDrawerOpen: false});
+    }
+
     render() {
         let backdrop;
 
@@ -54,7 +58,7 @@ class App extends Component {
                     <Route path="/resources" component={ResourcesPage} />
                     <Route path="/contact" component={ContactPage} />
                 </Router>
-                <SideDrawer show={this.state.sideDrawerOpen} />
+                <SideDrawer show={this.state.sideDrawerOpen} navlinkClickHandler={this.linkClickHandler} />
                 {backdrop}
                 
                 <Footer />
