@@ -76,29 +76,33 @@ class FeaturesPage extends Component {
                     </div>
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
-    				<h1>Tools</h1>
-    				<div className="grid__row">
-                        <div className="grid__column--twelve">
-                            <h3>Git</h3>
-                            <p>Git was used for version control, using branches to create new feeatures and then merging with the master branch.</p>
-                        </div>               
-                        <div className="grid__column--twelve">
-                            <h3>Webpack</h3>
-                            <p><em>Coming Soon</em></p>
-                        </div>              
+    				<div className="grid__container">
+                        <h1>Tools</h1>
+                        <div className="grid__row">
+                            <div className="grid__column--twelve">
+                                <h3>Git</h3>
+                                <p>Git was used for version control, using branches to create new feeatures and then merging with the master branch.</p>
+                            </div>               
+                            <div className="grid__column--twelve">
+                                <h3>Webpack</h3>
+                                <p><em>Coming Soon</em></p>
+                            </div>              
+                        </div>
                     </div>
     			</div>
                 <div className="section-wrapper">
-                    <h1>Features in the Works</h1>
-                    <div className="grid__row">
-                        <div className="grid__column--twelve">
-                            <h3>SASS</h3>
-                            <p><em>Coming Soon</em> - CSS preprocessor.</p>
-                        </div>               
-                        <div className="grid__column--twelve">
-                            <h3>Redux</h3>
-                            <p><em>Coming Soon</em> - State management for React components.</p>
-                        </div>              
+                    <div className="grid__container">
+                        <h1>Features in the Works</h1>
+                        <div className="grid__row">
+                            <div className="grid__column--twelve">
+                                <h3>SASS</h3>
+                                <p><em>Coming Soon</em> - CSS preprocessor.</p>
+                            </div>               
+                            <div className="grid__column--twelve">
+                                <h3>Redux</h3>
+                                <p><em>Coming Soon</em> - State management for React components.</p>
+                            </div>              
+                        </div>
                     </div>
                 </div>
 			</div>

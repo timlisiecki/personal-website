@@ -9,6 +9,8 @@
 .navbar__nav {
 	display: flex;
 	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .navbar__bg--initial {
@@ -25,12 +27,13 @@
 }
 
 .navbar__ul {
-	padding: 0;
+	padding: 0.5rem;
 }
 
 .navbar__list-items {
 	display: inline-flex;
-	padding: 1rem 1.5rem;;
+	padding: 1rem 1.5rem;
+	font-weight: bold;
 }
 
 .navbar__list-items a {
@@ -45,7 +48,7 @@
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1065px) {
 	.navbar__ul--left,
 	.navbar__ul--right {
 		display: none;
@@ -56,7 +59,7 @@
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1066px) {
 	.toggle-button {
 		display: none;
 	}
