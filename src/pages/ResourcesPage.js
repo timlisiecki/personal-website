@@ -20,20 +20,20 @@ class ResourcesPage extends Component {
 			    <div className="section-wrapper">
     				<div className="grid__container">
                         <div className="grid__row">
+                            <h1 className="section__title">Overview</h1>
                             <div className="grid__column--one-third">
-                                <h1>Overview</h1>
-                                <p>
+                                <p className="section__content">
                                     Are you a employer or a recruiter? Are you wondering how I became a self-taught developer and got where I am today? 
                                 </p>
-                                <p>
+                                <p className="section__content">
                                     Or are you new development and looking for some resources to learn more and add to your own skillset? 
                                 </p>
-                                <p>
+                                <p className="section__content">
                                     Below are many resources, excluding countless online articles, that helped me go from no web devlopment skills to being able to build my own personal website with React, and how I got to where I am today.
                                 </p>
                             </div>
                             <div className="grid__column--two-thirds">
-                                <h2>Featured Resources</h2>
+                                <h2 className="section__subtitle">Featured Resources</h2>
                                 <HorizontalCardList data={data.resources} isFeatured={true} />
                             </div>
                         </div>
@@ -41,13 +41,13 @@ class ResourcesPage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Books</h1>
+                        <h1 className="section__title">Books</h1>
                         <HorizontalCardList data={data.resources} category={"books"} isFeatured={false} />
                     </div>
     			</div>
     			<div className="section-wrapper">
 					<div className="grid__container">
-                        <h1>Online Courses</h1>
+                        <h1 className="section__title">Online Courses</h1>
                         <HorizontalCardList data={data.resources} category={"courses"} isFeatured={false} />
                     </div>
     			</div>

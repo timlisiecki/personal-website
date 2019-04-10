@@ -3,6 +3,7 @@
 	font-size: 1rem;
 	border: 2px solid #000000;
 	border-radius: 5px;
+	margin-top: 1rem;
 }
 
 .button:hover {

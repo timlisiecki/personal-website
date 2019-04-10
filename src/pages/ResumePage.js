@@ -23,8 +23,8 @@ class ResumePage extends Component {
 			    <div className="section-wrapper">
     				<div className="grid__container">
                         <div className="grid__row">
-                            <h3>Profile</h3>
-                            <p>
+                            <h1 className="section__title">Profile</h1>
+                            <p className="section__content">
                                 Web developer with over 3 years experience in front end development. Currently working on small development team at a moving software startup. Recently founded Blue Collar Coding, a freelance site focused on WordPress development for small businesses. Formerly a maritime captain with over 10 years experience in a leadership in the passenger vessel industry. Found a passion for coding and decided to shift my career to web development. Constantly looking to improve skillset and learn new things. Seeking a position as a web developer (or similar position), that may also utilize my management and marketing experience.
                             </p>
                         </div>
@@ -32,7 +32,7 @@ class ResumePage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Employment History</h1>
+                        <h1 className="section__title">Employment History</h1>
                         <Timeline lineColor={'#418e42'}>
                             <ResumeList data={data.jobs} />
                         </Timeline>
@@ -40,8 +40,8 @@ class ResumePage extends Component {
     			</div>
                 <div className="section-wrapper">
                     <div className="grid__container">
-                        <h1>Skills</h1>
-                        <p>Levels: Beginner Intermediate Advanced Expert Guru</p>
+                        <h1 className="section__title">Skills</h1>
+                        <p className="skills__legend"><strong>Legend:</strong> Beginner | Intermediate | Advanced | Expert | Guru</p>
                         <div className="grid__row">
                             <h3>Top Skills</h3>
                             <div className="grid__row">

@@ -52,6 +52,22 @@ a:hover {
   background: #f1f1f1;
 }
 
+.section__title {
+  margin-bottom: 1rem;
+}
+
+.section__subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.section__content {
+  padding: 0.5rem;
+}
+
+.section__content--bold {
+  font-weight: 600;
+}
+
 .connect--centered {
   text-align: center;
 }

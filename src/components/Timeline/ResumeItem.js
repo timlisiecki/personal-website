@@ -5,6 +5,7 @@ import { TimelineItem }  from 'vertical-timeline-component-for-react';
 // Components
 
 // Styles
+import './ResumeItem.css';
 
 const ResumeItem = ({ title, company, desc, dates, industry }) => {
 	return (
@@ -21,8 +22,9 @@ const ResumeItem = ({ title, company, desc, dates, industry }) => {
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
             }}
         >
-            <h3> {title}, {company}</h3>
-            <p>{desc}</p>
+            <p className="resume-item__title"> <strong>{title}</strong></p>
+            <p className="resume-item__subtitle"><em>{company}</em></p>
+            <p className="resume-item__desc">{desc}</p>
         </TimelineItem>
 	);
 }

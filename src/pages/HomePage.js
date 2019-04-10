@@ -11,7 +11,7 @@ import CardList from '../components/Card/CardList';
 // Assets
 import '../assets/responsive-grid.css';
 import './HomePage.css';
-import bioPic from '../images/timlisiecki.jpg';
+import bioPic from '../images/dev-tim.JPG';
 
 class HomePage extends Component {
 
@@ -31,14 +31,14 @@ class HomePage extends Component {
     				</div>
     				<div className="grid__container">
                         <div className="grid__row">
-                            <h1>About Me</h1>
+                            <h1 className="section__title">About Me</h1>
                             <div className="grid__column--one-half">
-                                <p>
+                                <p className="section__content">
                                     Hi! Welcome to my personal website! After 10 years of working in the passsenger vessel industry as a Captain, I decided to change careers to become a web developer with a focus on front end development using the latest technologies.  
                                 </p>
                             </div>
                             <div className="grid__column--one-half">
-                                <img src={bioPic} alt="Tim Lisiecki" className="about__pic" />
+                                <img src={bioPic} alt="Tim Lisiecki" className="bio__pic" />
                             </div>
                             <Link to="/about">
                                 <Button classModifier={"button--green button--large"}>Learn More</Button>
@@ -48,15 +48,15 @@ class HomePage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Skillset</h1>
+                        <h1 className="section__title">Skillset</h1>
                         <div className="grid__row">
                             <div className="grid__column--one-third">
                                 <div className="skillest--centered">
                                     <span className="connect__icon">
                                         <i className="fas fa-desktop"></i>
                                     </span>
-                                    <h4>Web Development</h4>
-                                    <p>Focused on Front End development, creating modern websites optimized for UX.</p>
+                                    <h4 className="skillset__title">Web Development</h4>
+                                    <p className="skillset__content">Focused on Front End development, creating modern websites optimized for UX.</p>
                                 </div>
                             </div>               
                             <div className="grid__column--one-third">
@@ -64,8 +64,8 @@ class HomePage extends Component {
                                     <span className="connect__icon">
                                         <i className="fas fa-mobile-alt"></i>
                                     </span>
-                                    <h4>Responsive Design</h4>
-                                    <p>Optimized websites that look great on both desktop and mobile.</p>
+                                    <h4 className="skillset__title">Responsive Design</h4>
+                                    <p className="skillset__content">Optimized websites that look great on both desktop and mobile.</p>
                                 </div>
                             </div>               
                             <div className="grid__column--one-third">
@@ -73,8 +73,8 @@ class HomePage extends Component {
                                     <span className="connect__icon">
                                         <i className="fas fa-bullhorn"></i>
                                     </span>
-                                    <h4>Digital Marketing</h4>
-                                    <p>Intergrated Marketing utilizing Social Media, SEO, and Content Marketing to draw audience to your Website.</p>
+                                    <h4 className="skillset__title">Digital Marketing</h4>
+                                    <p className="skillset__content">Intergrated Marketing utilizing Social Media, SEO, and Content Marketing to draw audience to your Website.</p>
                                 </div>
                             </div>               
                         </div>
@@ -85,7 +85,7 @@ class HomePage extends Component {
     			</div>
     			<div className="section-wrapper">
 					<div className="grid__container">
-                        <h1>Featured Projects</h1>
+                        <h1 className="section__title">Featured Projects</h1>
                         <div className="grid__row">               
                             <CardList data={data.projects} linkText="View" isFeatured={true} />              
                         </div>
@@ -96,7 +96,7 @@ class HomePage extends Component {
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
     				<div className="grid__container">
-                        <h1>Connect</h1>
+                        <h1 className="section__title">Connect</h1>
                         <div className="connect-features">
                             <div className="connect--centered">
                                 <h5>Need to Contact Me?</h5>

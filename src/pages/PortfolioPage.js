@@ -18,16 +18,18 @@ class PortfolioPage extends Component {
 				<SubpageHero title="Portfolio"/>
     			<div className="section-wrapper">
 					<div className="grid__container">
-                        <h1>Featured Projects</h1>
+                        <h1 className="section__title">Featured Projects</h1>
                         <div className="grid__row">               
                             <CardList data={data.projects} linkText="View" isFeatured={true} />              
                         </div>
                     </div>
     			</div>
     			<div className="section-wrapper section-wrapper--grey">
-    				<h1>Projects</h1>
-    				<div className="grid__row">
-                        <CardList data={data.projects} linkText="View" isFeatured={false} />
+    				<div className="grid__container">
+                        <h1>Projects</h1>
+                        <div className="grid__row">
+                            <CardList data={data.projects} linkText="View" isFeatured={false} />
+                        </div>
                     </div>
     			</div>
 			</div>

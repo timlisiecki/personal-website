@@ -33,6 +33,14 @@
 	text-align: center;
 }
 
+.skillset__title {
+	padding: 0.5rem;
+}
+
+.skillset__content {
+	
+}
+
 .project__featured-image {
 	width: 100%;
 	height: auto;
