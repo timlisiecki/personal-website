@@ -59,7 +59,7 @@ class AboutPage extends Component {
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p className="section__content">
-                                    I was first introduced to web development while in my senior year of college in 2015. I had read an article talking about the benefits of learning coding if you are pursuing a career in business, no matter which field (accounting, financing, marketing, etc..) you were interested in. The article listed a few free websites that taught coding, including Codecademy. Since I had a concentration in Marketing, I took the HTML and CSS courses on Codecademy, and immediatelly found a passion for coding. 
+                                    I was first introduced to web development while in my senior year of college in 2015. I had read an article talking about the benefits of learning coding if you are pursuing a career in business, no matter which field (accounting, financing, marketing, etc..) you were interested in. The article listed a few free websites that taught coding, including Codecademy. Since I had a concentration in Marketing, I took the HTML and CSS courses on Codecademy, and immediately found a passion for coding. 
                                 </p>
                                 <p className="section__content">
                                     Although I continued working as a captain and eventually as a manager following graduation, I continued to learn coding and expanding my web development skillset in my free time. Eventually, I was able to incorporate those skills with my position as Web Marketing Manager at Mass Bay Lines, taking over managing the website. I knew then that I wanted to officially switch careers to being a front end web developer.
@@ -97,7 +97,7 @@ class AboutPage extends Component {
                         <div className="grid__row">
                             <div className="grid__column--twelve">
                                 <p className="section__content">
-                                    Started my first career in 2009 as a boat captain on Boston Harbor. In 2015, while earning a degree in Management/Marketing from UMass Boston, I started learning web development in my free time. After a few years of learning, freelancing, and building projects, I switched careers from being a full-time boat captain to being a full-time web developer in December 2018! As far as career goals, I hope to become a senior developer within the next few years in order to teach/guide junior developers in similar shoes as I am now.
+                                    Started my first career in 2009 as a boat captain on Boston Harbor. In 2015, while earning a degree in Management/Marketing from UMass Boston, I started learning web development in my free time. After a few years of learning, freelancing, and building projects, I switched careers from being a full-time boat captain to being a full-time web developer in December 2018! As far as career goals, I hope to become a senior developer within the next few years in order to teach/guide junior developers in similar shoes as I am in now.
                                 </p>
                             </div>        
                         </div>
