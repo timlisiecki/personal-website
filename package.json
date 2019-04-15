@@ -2,7 +2,7 @@
   "name": "timlisiecki.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://timlisiecki.github.io/personal-website/",
+  "homepage": "https://timlisiecki.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
