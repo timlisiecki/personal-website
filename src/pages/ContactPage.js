@@ -30,7 +30,7 @@ class ContactPage extends Component {
                                 <div className="connect--centered">
                                     <h5>Need to Contact Me?</h5>
                                     <span className="connect__icon">
-                                        <a href="mailto:info@timlisiecki.com" target="_blank" rel="noopener noreferrer">
+                                        <a href="mailto:info@timlisiecki.com">
                                             <i className="fas fa-envelope-open"></i>
                                         </a>
                                     </span>

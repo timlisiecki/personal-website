@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = props => (
 	<div className="footer__wrapper">
         <span className="footer__icon">
-            <a href="mailto:info@timlisiecki.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:info@timlisiecki.com">
                 <i className="fas fa-envelope-open"></i>
             </a>
         </span>
