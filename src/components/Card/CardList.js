@@ -6,18 +6,21 @@ import Card from './Card';
 
 // Styles
 
-const CardList = ( { isFeatured, data } ) => {
-
-	const featuredCards = data.filter( card => card.featured ).map((card, i) => {
+const CardList = ({ isFeatured, data }) => {
+	const featuredCards = data
+		.filter((card) => card.featured)
+		.map((card, i) => {
 			return (
-				<Card 
+				<Card
 					key={i}
-					name={card.name} 
+					name={card.name}
 					image={card.image}
 					desc={card.desc}
 					tech={card.tech.map((category, j) => {
 						return (
-							<li key={j} className="card__tech-list-item">{card.tech[j]}</li>
+							<li key={j} className="card__tech-list-item">
+								{card.tech[j]}
+							</li>
 						);
 					})}
 					url={card.url}
@@ -27,16 +30,20 @@ const CardList = ( { isFeatured, data } ) => {
 			);
 		});
 
-	const cards = data.filter( card => !card.featured ).map((card, i) => {
+	const cards = data
+		.filter((card) => !card.featured)
+		.map((card, i) => {
 			return (
-				<Card 
+				<Card
 					key={i}
-					name={card.name} 
+					name={card.name}
 					image={card.image}
 					desc={card.desc}
 					tech={card.tech.map((category, j) => {
 						return (
-							<li key={j} className="card__tech-list-item">{card.tech[j]}</li>
+							<li key={j} className="card__tech-list-item">
+								{card.tech[j]}
+							</li>
 						);
 					})}
 					url={card.url}
@@ -46,7 +53,11 @@ const CardList = ( { isFeatured, data } ) => {
 			);
 		});
 
-	return <div className="card-list">{ isFeatured ? featuredCards : cards }</div>;
-}
+	return (
+		<div className="grid__row grid__column--one-third">
+			{isFeatured ? featuredCards : cards}
+		</div>
+	);
+};
 
 export default CardList;

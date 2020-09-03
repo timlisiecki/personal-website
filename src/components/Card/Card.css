@@ -1,16 +1,9 @@
-.card-list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 100%;
-}
-
 .card {
-	flex: 0 1 auto;
 	text-align: center;
 	background-color: #f7f7f7;
 	border-radius: 5px;
 	padding: 0 0 0.75rem 0;
+	border-radius: 0.5rem;
 	box-shadow: 0px 0px 19px 0px #cacaca;
 }
 
@@ -35,7 +28,7 @@
 
 .card__tech {
 	display: flex;
-	font-size: .75rem;
+	font-size: 0.75rem;
 	list-style-type: none;
 	color: grey;
 	padding: 0.5rem;
@@ -54,7 +47,7 @@
 }
 
 .card__icon a {
-	color:#418E43;
+	color: #418e43;
 }
 
 .card__icon a:hover {

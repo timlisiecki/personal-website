@@ -1,15 +1,15 @@
 .navbar {
 	position: fixed;
-    /*margin-top: 9rem;*/
-    width: 100%;
-    z-index: 500;
-    color: #ffffff;
+	/*margin-top: 9rem;*/
+	width: 100%;
+	z-index: 500;
+	color: #ffffff;
 }
 
 .navbar__nav {
 	display: flex;
 	justify-content: space-between;
-	max-width: 85%;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -21,31 +21,24 @@
 	background: #418e42;
 }
 
-
-.navbar--clearfix {
-	overflow: auto;
-}
-
 .navbar__ul {
 	padding: 0.5rem;
 }
 
 .navbar__list-items {
 	display: inline-flex;
-	padding: 1rem 1.5rem;
+	padding: 0.5rem 1rem;
 	font-weight: bold;
 }
 
 .navbar__list-items a {
-
 	text-decoration: none;
-	color: #ffffff
+	color: #ffffff;
 }
 
 .navbar__list-items a:hover,
 .navbar__list-items a:active {
 	font-weight: 800;
-
 }
 
 @media screen and (max-width: 1065px) {

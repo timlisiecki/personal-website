@@ -1,4 +1,3 @@
-
 .about-section {
 	background: #dfe9ff;
 }
@@ -25,7 +24,7 @@
 }
 
 .site-features p {
-	margin: .5rem;
+	margin: 0.5rem;
 	font-weight: 500;
 }
 
@@ -38,6 +37,7 @@
 .project__featured-image {
 	width: 100%;
 	height: auto;
+	border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card {
