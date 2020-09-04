@@ -1,5 +1,6 @@
-/* Grid */
-.grid__container {
+/* Grid and Flex layouts */
+.grid__container,
+.flex__container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -9,6 +10,15 @@
 	width: 100%;
 	display: grid;
 	grid-gap: 1rem;
+}
+
+.flex__row {
+	width: 100%;
+	display: flex;
+}
+
+.flex-basis--25 {
+	flex-basis: 25%;
 }
 
 .grid__column--one-sixth {

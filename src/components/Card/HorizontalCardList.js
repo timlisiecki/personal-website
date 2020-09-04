@@ -6,11 +6,12 @@ import HorizontalCard from './HorizontalCard';
 
 // Styles
 
-const HorizontalCardList = ( { category, isFeatured, data } ) => {
-	
-	const featuredCards = data.filter( card => card.featured ).map((card, i) => {
+const HorizontalCardList = ({ category, isFeatured, data }) => {
+	const featuredCards = data
+		.filter((card) => card.featured)
+		.map((card, i) => {
 			return (
-				<HorizontalCard 
+				<HorizontalCard
 					key={i}
 					title={card.title}
 					author={card.author}
@@ -22,9 +23,11 @@ const HorizontalCardList = ( { category, isFeatured, data } ) => {
 			);
 		});
 
-	const booksList = data.filter( card => card.type === "Book" ).map((card, i) => {
+	const booksList = data
+		.filter((card) => card.type === 'Book')
+		.map((card, i) => {
 			return (
-				<HorizontalCard 
+				<HorizontalCard
 					key={i}
 					title={card.title}
 					author={card.author}
@@ -36,9 +39,11 @@ const HorizontalCardList = ( { category, isFeatured, data } ) => {
 			);
 		});
 
-	const courseList = data.filter( card => card.type === "Course" ).map((card, i) => {
+	const courseList = data
+		.filter((card) => card.type === 'Course')
+		.map((card, i) => {
 			return (
-				<HorizontalCard 
+				<HorizontalCard
 					key={i}
 					title={card.title}
 					author={card.author}
@@ -53,16 +58,15 @@ const HorizontalCardList = ( { category, isFeatured, data } ) => {
 	let listType;
 	if (isFeatured) {
 		listType = featuredCards;
-	} else if (category === "books") {
+	} else if (category === 'books') {
 		listType = booksList;
-	} else if (category === "courses") {
+	} else if (category === 'courses') {
 		listType = courseList;
 	} else {
-		return <p>Something went wrong...</p>
+		return <p>Something went wrong...</p>;
 	}
 
-	return <div>{listType}</div>;
-	
-}
+	return <>{listType}</>;
+};
 
 export default HorizontalCardList;
