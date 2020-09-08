@@ -35,3 +35,9 @@
 	font-size: 0.9rem;
 	font-weight: 400;
 }
+
+@media screen and (max-width: 650px) {
+	.horizontal-card__image {
+		max-width: 50%;
+	}
+}
