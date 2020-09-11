@@ -37,6 +37,25 @@ class ResumePage extends Component {
 				</div>
 				<div className="section-wrapper section-wrapper--grey">
 					<div className="grid__container">
+						<h1 className="section__title">Skills</h1>
+						<ul>
+							<li>React</li>
+							<li>Redux</li>
+							<li>Node.js</li>
+							<li>Express</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript (ES6+)</li>
+							<li>PHP</li>
+							<li>SASS</li>
+							<li>BEM</li>
+							<li>REST API</li>
+							<li>Git</li>
+						</ul>
+					</div>
+				</div>
+				<div className="section-wrapper">
+					<div className="grid__container">
 						<h1 className="section__title">Employment History</h1>
 						<Timeline lineColor={'#418e42'}>
 							<ResumeList data={data.jobs} />
