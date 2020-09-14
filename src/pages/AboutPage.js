@@ -22,10 +22,12 @@ class AboutPage extends Component {
 							<div className="m-auto max-width-10">
 								<h3>A Little About Myself</h3>
 								<p className="section__content">
-									Hi! Welcome to my personal website! After 10 years of working in
-									the passsenger vessel industry as a Captain, I decided to change
-									careers to become a web developer with a focus on front end
-									development using the latest technologies.
+									Hi! Welcome to my personal website! After 10 years of working as
+									a boat captain in the passsenger vessel industry, I decided to
+									change careers to become a web developer with a focus on front
+									end development using the latest technologies. As of May 2020, I
+									am learning software engineering with a focus on full-stack
+									Javascript engineering.
 								</p>
 								<p className="section__content">
 									Continue reading if you would like to learn more about me and
@@ -92,25 +94,34 @@ class AboutPage extends Component {
 									coding.
 								</p>
 								<p className="section__content">
-									Although I continued working as a captain and eventually as a
-									manager following graduation, I continued to learn coding and
+									Although I continued working as a captain, and eventually as a
+									manager, following graduation, I continued learning coding and
 									expanding my web development skillset in my free time.
 									Eventually, I was able to incorporate those skills with my
 									position as Web Marketing Manager at Mass Bay Lines, taking over
-									managing the website. I knew then that I wanted to officially
-									switch careers to being a front end web developer.
+									managing the website and social media. I knew then that I wanted
+									to officially switch careers to being a front end web developer.
 								</p>
 							</div>
 						</div>
-						<h3 className="section__title">Starting My Own (part-time) Business</h3>
+						<h3 className="section__title">
+							Starting My Own (part-time) Freelance Business
+						</h3>
 						<div className="grid__row">
 							<div className="grid__column--twelve">
 								<p className="section__content">
 									In September of 2018, I started my own part-time business, Blue
 									Collar Coding, building and managing Wordpress websites for
 									small businesses as well as offering SEO services. This helped
-									me gain even more experience in developing a project fro mstart
+									me gain even more experience in developing a project from start
 									to finish, as well as maintaining projects after completion.
+								</p>
+								<p className="section__content">
+									More recently, I have changed the direction of Blue Collar
+									Coding from Wordpress only websites to offering website
+									development services including Wordpress, Single Page
+									Applications, wed development consultations, web optimizations,
+									and other services on a ad-hoc basis.
 								</p>
 							</div>
 						</div>
@@ -130,33 +141,22 @@ class AboutPage extends Component {
 						<div className="grid__row">
 							<div className="grid__column--twelve">
 								<p className="section__content">
-									Although I am still at the beginning of my career in web
-									development, I am excited for what is to come. I hope to
-									eventually become a Senior Developer in order to lead and teach
-									other developers. Check out the{' '}
+									Although I am still relatively at the beginning of my career in
+									web development, I have learned a lot. I hope to eventually
+									become a Senior Developer in order to lead and teach other
+									developers. Check out the{' '}
 									<Link to="/resources">Resources page</Link> to see all the
 									courses and materials I've used to get to this point.
 								</p>
 								<p className="section__content">
-									Currently, I am learning the skills to become a Senior Web
-									Developer using the most current technologies, and hope to apply
-									those skills to website, web applications, and software.
-								</p>
-							</div>
-						</div>
-						<h4 className="section__title">TL;DR</h4>
-						<div className="grid__row">
-							<div className="grid__column--twelve">
-								<p className="section__content">
-									Started my first career in 2009 as a boat captain on Boston
-									Harbor. In 2015, while earning a degree in Management/Marketing
-									from UMass Boston, I started learning web development in my free
-									time. After a few years of learning, freelancing, and building
-									projects, I switched careers from being a full-time boat captain
-									to being a full-time web developer in December 2018! As far as
-									career goals, I hope to become a senior developer within the
-									next few years in order to teach/guide junior developers in
-									similar shoes as I am in now.
+									Currently, I am learning the software engineering with a focus
+									on full-stack Javascript engineering. I spend ~15 hours a week
+									learning and practicing software engineering by taking online
+									courses as well as reading articles and documentation. Ideally,
+									my next career move is a role that allows me to built web apps
+									in a MERN stack, however, I have learned from my experiences so
+									far that I am very adaptable and willing to learn new and
+									different technologies.
 								</p>
 							</div>
 						</div>

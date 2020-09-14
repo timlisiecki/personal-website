@@ -1,6 +1,19 @@
+.skills__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 
-.skills__legend {
-	font-size: 1rem;
-	font-style: italic;
-	padding: 1rem 0;
+.skills__list li {
+	padding: 1rem;
+	list-style: none;
+}
+
+.education__list {
+	padding: 1rem;
+}
+
+.education__list li {
+	margin: 0 0 2rem;
+	list-style: none;
 }
