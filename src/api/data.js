@@ -27,6 +27,15 @@ export const data = {
 			tech: ['JavaScript', 'HTML', 'CSS'],
 		},
 		{
+			name: 'Blue Collar Coding',
+			desc: 'Freelance web services providing modern, mobile-optimized websites and web apps for small business.',
+			url: 'https://bluecollarcoding.com/',
+			github: 'https://github.com/timlisiecki/blue-collar-coding',
+			image: 'https://timlisiecki.github.io/images/portfolio/bcc2.png',
+			featured: false,
+			tech: ['JavaScript', 'React', 'CSS'],
+		},
+		{
 			name: 'Rock, Paper, Scrissors Game',
 			desc: 'A simple game of Rock, Paper, Scissors built with vanilla JavaScript.',
 			url: 'https://timlisiecki.github.io/js-rock-paper-scissors/',
@@ -34,14 +43,6 @@ export const data = {
 			image: 'https://timlisiecki.github.io/images/portfolio/rock-paper-scissors.png',
 			featured: false,
 			tech: ['JavaScript', 'HTML', 'CSS'],
-		},
-		{
-			name: 'Blue Collar Coding',
-			desc: 'Founded a freelance business for building WordPress websites for small businesses.',
-			url: 'https://bluecollarcoding.com',
-			image: 'https://timlisiecki.github.io/images/portfolio/bcc.png',
-			featured: false,
-			tech: ['HTML', 'CSS', 'Wordpress'],
 		},
 		{
 			name: 'RoboFriends App',
